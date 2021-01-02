@@ -25,15 +25,15 @@ echo install applications
 apt-get -y install tlp
 apt-get -y install gufw
 apt-get -y install vim
-apt-get -y install lxapperance
+apt-get -y install lxappearance
 apt-get -y install papirus-icon-theme
 apt-get -y install arc-theme
 apt-get -y install fonts-noto
 cd ~/Projects/suckless/dwm-6.2
-make install clean
+exec make install clean
 cd ~/Projects/suckless/dmenu-5.0
-make install clean
+exec make install clean
 cd ~/Projects/suckless/slock-1.4
-make install clean
+exec make install clean
 cd ~/Projects/suckless/st-0.8.4
-make install clean
+exec make install clean
