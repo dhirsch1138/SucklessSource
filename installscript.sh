@@ -3,6 +3,9 @@ echo installing dpkg-dev
 apt-get -y install dpkg-dev
 echo installing git
 apt-get -y install git
+echo installing drivers
+apt-get -y install firmware-linux-nonfree
+apt-get -y install firmware-b43-installer
 echo installing code libraries
 apt-get -y install libxrandr-dev
 apt-get -y install libxft-dev
