@@ -24,7 +24,6 @@ apt-get -y install trayer
 apt-get -y install dunst
 apt-get -y install pulseaudio
 apt-get -y install pnmixer
-apt-get -y install rofi
 echo install applications
 apt-get -y install tlp
 apt-get -y install gufw
@@ -33,10 +32,11 @@ apt-get -y install lxappearance
 apt-get -y install papirus-icon-theme
 apt-get -y install arc-theme
 apt-get -y install fonts-noto
-apt-get -y install firefox-esr
-apt-get -y install xarchiver
-apt-get -y install xstarfish
-apt-get -y install ristretto
-apt-get -y install pcmanfm
-apt-get -y install mousepad
-
+cd ~/Projects/suckless/dwm-6.2
+exec make install clean
+cd ~/Projects/suckless/dmenu-5.0
+exec make install clean
+cd ~/Projects/suckless/slock-1.4
+exec make install clean
+cd ~/Projects/suckless/st-0.8.4
+exec make install clean
