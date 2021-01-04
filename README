@@ -1,0 +1,10 @@
+For a fresh system install, from a minimal debian installation, just download and run:
+userinstall.sh
+
+It will:
+* download and install a minimal xorg setup with suckless tools
+** including drivers
+* setup dwm as the window manager
+* check out your/our suckless tool repo
+* compile the suckless tools from the repo to get the customizations
+* setup pnminxer for volume controll

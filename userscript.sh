@@ -9,6 +9,8 @@ cd Projects
 mkdir suckless
 git clone https://github.com/dhirsch1138/SucklessSource suckless
 echo compiling suckless tools, authenticate with "su" to escalate
+cd suckless
+chmod +x compilesuckless.sh
 su --command="./compilesuckless.sh"
 echo building config files for this user
 touch ~/.xsessionrc
