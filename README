@@ -1,9 +1,19 @@
 For a fresh system install, from a minimal debian installation, just download and run:
 userinstall.sh
 
+Setup:
+1) edit /etc/apt/sources.list , adding 'contrib' and 'non-free' to all of the repo entries
+2) apt update
+3) apt upgrade
+4) apt full-upgrade
+5) apt dist-upgrade
+6) add any drivers/firmware
+  (for my poke laptop,
+   firmware-linux-nonfree
+   firmware-b43-installer)
+
 It will:
 * download and install a minimal xorg setup with suckless tools
-** including drivers
 * setup dwm as the window manager
 * check out your/our suckless tool repo
 * compile the suckless tools from the repo to get the customizations

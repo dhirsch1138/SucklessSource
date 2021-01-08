@@ -18,6 +18,7 @@ echo "exec dwm" > ~/.xsessionrc
 cd ~
 mkdir .config
 cd .config
+cp ~/Projects/suckless/configdefaults/.gtkrc-2.0 .gtkrc-2.0
 mkdir pnmixer
 cd pnmixer
 cp ~/Projects/suckless/configdefaults/pnmixer/config config
